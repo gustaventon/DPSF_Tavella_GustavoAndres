@@ -1,0 +1,678 @@
+body{
+    font-family:"Montserrat", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 8px 8px 8px 30px;
+    border: 0px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 0 8px 0 25px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    justify-content: center; /* Alinea los elementos en el centro horizontalmente */
+    padding: 0; 
+    
+}
+
+
+.buscar{
+
+    border-radius: 30px;
+    border: 0px;
+    background-color: white;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    color: rgb(186, 186, 186);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buscar input {
+    background: url(../../icons/search.svg) no-repeat scroll 7px 7px;
+    background-size: 20px;
+    padding: 8px 8px 8px 8px;
+    border: 0;
+    text-align: center;
+    border-radius: 30px;
+    font-family:"Montserrat", sans-serif;
+}
+
+.user {
+    margin-right: 5px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: white;
+    padding: 10px 12px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.bannerSquare {
+    background-color: orangered;
+    border-radius: 30px;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    margin: 130px 0 150px 0;
+}
+
+.textBanner{
+    
+    align-items: center; /* Centra verticalmente */
+    padding: 100px 0 0 40px;
+    
+    
+}
+
+.bannerSquare img {
+    position: absolute;
+    height: 400px;
+    top: -100px;
+    left: 60%;
+    border-radius: 30px;
+}
+
+.bannerSquare h1{
+    font-weight: 900;
+    padding-right: 60%;
+    margin: 0;
+    
+}
+.bannerSquare h5{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.bannerSquare p{
+    font-size: 14px;
+    padding: 0;
+    margin: 6px 0;
+}
+
+.comprarDiv{
+    margin-left: 280px;
+}
+.comprar {
+    border-radius: 30px;
+    border: 0;
+    padding: 8px 12px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.franja{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.franja img {
+    height: 250px;
+    position: absolute;
+    top: -90px;
+    left: 16%;
+}
+
+@media only screen and (max-width: 1549px) {
+    .franja img {
+        visibility: hidden;
+    }
+  }
+
+.text1 {
+    color: #ffd100;
+    text-align: center;
+}
+.text1 p:first-child{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 200;
+}
+.text1 p:last-child{
+    margin: 0;
+    font-size: 35px;
+    font-weight: 900;
+}
+.text2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.text2 p{
+    margin: 0;
+}
+.text3{
+    color: #ffd100;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+.text3 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.productos1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.productos2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: visible;
+    border: 0;
+    border-radius: 30px;
+    
+}
+
+.container img {
+    position: absolute;
+    top: -100px;
+    left: -20px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    
+}
+
+.textProduct{
+    text-align: center;
+    font-weight: 500;
+}
+.textProduct p:first-child{
+    margin-bottom: 0px;
+}
+.textProduct p:last-child{
+    margin-top: 0px;
+}
+
+.container2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: visible;
+    border: 0;
+    border-radius: 30px;
+    
+}
+.container2 img {
+    position: absolute;
+    top: -80px;
+    left: -70px;
+    width: 420px;
+    height: 420px;
+    z-index: 1;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: visible;
+    border: 0;
+    border-radius: 30px;
+    
+}
+
+.container3 img {
+    position: absolute;
+    top: -80px;
+    left: -60px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    
+}
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bannerSquare2 {
+    background-color: orangered;
+    border-radius: 30px;
+    width: 800px;
+    height: 250px;
+    position: relative;
+    margin: 130px 0 150px 0;
+}
+
+.textBanner2 span{
+    position: absolute;
+    font-size: 120px;
+    color: white;
+    z-index: 2;
+    left: 20%;
+    top: 20px;
+}
+
+.textBanner2{
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bannerSquare2 img {
+    position: absolute;
+    height: 400px;
+    top: -80px;
+    left: -10%;
+}
+
+footer {
+    background-color: black;
+    height: 350px;
+    padding: 50px 200px 20px 300px;
+    color: white;
+}
+
+@media only screen and (max-width: 1159px) {
+    footer {
+        padding: 50px 150px 20px 150px;
+    }
+  }
+
+@media only screen and (max-width: 935px) {
+    footer {
+        padding: 50px 90px 20px 90px;
+    }
+  }
+
+  
+
+.storeMenu{
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+}
+
+.storeMenu h3{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.storeMenu li{
+    padding-bottom: 8px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.iconHoodie {
+    height: 100px;
+    text-align: center;
+}
+
+.iconHoodie img{
+    height: 100px;
+}
+
+.nosotros {
+    width: 200px;
+}
+.tienda {
+    width: 150px;
+}
+.ayuda {
+    width: 150px;
+}
+.contacto {
+    width: 400px;
+    text-align: center;
+}
+
+.ofertas {
+    font-family:"Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.social svg{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.bannerSquareProduct {
+    background-color: #ffd100;
+    border-radius: 30px;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    margin: 130px 0 150px 0;
+}
+
+.bannerSquareProduct img {
+    position: absolute;
+    height: 500px;
+    top: -100px;
+    left: -3%;
+}
+
+.bannerSquareProduct h1{
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+.bannerSquareProduct h5{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.bannerSquareProduct p{
+    font-size: 14px;
+    padding: 0;
+    margin: 6px 0;
+}
+.textBannerProduct{
+    margin-left: 430px;
+    align-items: center;
+    padding: 40px 0 0 40px;
+}
+
+.talla {
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tallaB {
+    background-color: black;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.price {
+    margin-right: 40px;
+    text-align: end;
+}
+
+.franjaAmarilla{
+    background-color: #ffd100;
+    width: 40%;
+    text-align: end;
+    margin-top: 60px;
+    padding: 15px 20px;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+}
+.franjaAmarilla h1{
+    margin: 0;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description img{
+    height: 200px;
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cantidad p{
+    padding: 6px;
+    margin: 0;
+}
+.qty {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #ffd100;
+    cursor: pointer;
+}
+
+.pedidos{
+    margin-left: 60px;
+    padding: 30px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #ffd100;
+}
+
+.aviso{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.crearcuenta{
+    display: flex;
+    justify-content: center;
+}
+
+.prom {
+    background-color: #ffd100;
+    border-radius: 30px;
+    padding: 40px;
+    margin-right: 100px;
+    width: 20%;
+}
+
+.cuenta {
+    display: grid;
+    width: 25%;
+}
+
+.cuenta input{
+    border: 0;
+    border-radius: 30px;
+    background-color: #ecebeb;
+    padding: 10px;
+    font-family:"Montserrat", sans-serif;
+    margin: 5px;
+}
+
+.cuenta input::placeholder{
+    color: #a2a2a2;
+    font-family:"Montserrat", sans-serif;
+}
+
+.conditions{
+    width: 55%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.end {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuentaButton {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family:"Montserrat", sans-serif;
+}
+
+.login {
+    border: 1px solid black;
+    height: 100vh;
+    width: 600px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 40px;
+    text-align: center;
+}
+
+
+.login p:first-child{
+    padding: 20px;
+    text-align: start;
+}
+
+.login h1{
+    text-align: center;
+}
+
+.login input{
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ecebeb;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.login input:placeholder{
+    color: #a2a2a2;
+    font-family:"Montserrat", sans-serif;
+}
+
+.content{
+    position: fixed;       /* Fija el overlay en relación al viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;            /* Coloca el overlay en el z-index 1 */
+    backdrop-filter: blur(10px); /* Aplica el efecto de desenfoque */
+    background-color: rgba(255, 255, 255, 0.2); /* Opción: agrega un color de fondo con transparencia */
+}
+
+.contenedorProductos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.productos{
+    border:0;
+    border-radius: 20px;
+    background-color: #ffd100;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.productos img{
+    width: 200px;
+}
+
+.productos p{
+    margin: 0;
+}
+
+#loginButton {
+    background-color: black; /* Color de fondo */
+    border: none; /* Sin bordes */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor en forma de mano */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición de color de fondo */
+    position: absolute; /* Posición absoluta */
+    right: 10px; /* Desplazamiento desde la derecha */
+    top: 10px; 
+}
+
+#loginButton:hover {
+    background-color: orangered; /* Color de fondo al pasar el cursor */
+}
