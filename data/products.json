@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name_product": "Jersey Argentina Ruta/MTB",
+    "description": "Lycra. \n Anatomico",
+    "price": "$85.99",
+    "category_product": "Jersey",
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Argentina"],
+    "image": "/images/jersey_argentina.webp"
+  },
+  {
+    "id": 2,
+    "name_product": "Jersey Negro",
+    "description": "Lycra. \n Anatomico",
+    "price": "$79.99",
+    "category_product": "Jersey",
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Negro"],
+    "image": "/images/jersey_negro.webp"
+  },
+  {
+    "id": 3,
+    "name_product": "Jersey bicicleta",
+    "description": "Lycra. \n Anatomico",
+    "price": "$32.99",
+    "category_product": "Jersey",
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Verde"],
+    "image": "/images/jersey_bicicleta.webp"
+  },
+  {
+    "id": 4,
+    "name_product": "Jersey azul",
+    "description": "Lycra. \n Anatomico",
+    "price": "$15.99",
+    "category_product": "Jersey",
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Azul"],
+    "image": "/images/jersey_azul.webp"
+  }
+]
